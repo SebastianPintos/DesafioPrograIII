@@ -27,6 +27,9 @@ public class Objeto
 	{
 		return _beneficio;
 	}
+	public String toString() {
+		return getNombre() + " Peso: "+String.valueOf(getPeso()) +" Beneficio: "+ String.valueOf(getBeneficio());
+	}
 }
 
 
